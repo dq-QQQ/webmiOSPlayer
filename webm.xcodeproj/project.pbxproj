@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1B2B4D32B5FB7910087B9E4 /* custom.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B2B4D22B5FB7910087B9E4 /* custom.m */; };
+		A1C65C852B5E39900066A64D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C65C842B5E39900066A64D /* AppDelegate.m */; };
+		A1C65C882B5E39900066A64D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C65C872B5E39900066A64D /* SceneDelegate.m */; };
+		A1C65C8B2B5E39900066A64D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C65C8A2B5E39900066A64D /* ViewController.m */; };
+		A1C65C8E2B5E39900066A64D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1C65C8C2B5E39900066A64D /* Main.storyboard */; };
+		A1C65C902B5E39910066A64D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1C65C8F2B5E39910066A64D /* Assets.xcassets */; };
+		A1C65C932B5E39910066A64D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1C65C912B5E39910066A64D /* LaunchScreen.storyboard */; };
+		A1C65C962B5E39910066A64D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C65C952B5E39910066A64D /* main.m */; };
+		A1C65C9E2B5E40DC0066A64D /* VC1.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C65C9D2B5E40DC0066A64D /* VC1.m */; };
+		A1C65CA12B5E40E80066A64D /* VC2.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C65CA02B5E40E80066A64D /* VC2.m */; };
+		A1C65CA42B5E40F60066A64D /* VC3.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C65CA32B5E40F60066A64D /* VC3.m */; };
+		BBFFDCA063F3EE0C60191EE2 /* Pods_webm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70DF9B51BC1406F545FD6FC8 /* Pods_webm.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		70DF9B51BC1406F545FD6FC8 /* Pods_webm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_webm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B2B3E82B5FA5770087B9E4 /* libPods-EMMobileVLCKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libPods-EMMobileVLCKit.a"; sourceTree = "<group>"; };
+		A1B2B4D12B5FB7860087B9E4 /* custom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = custom.h; sourceTree = "<group>"; };
+		A1B2B4D22B5FB7910087B9E4 /* custom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = custom.m; sourceTree = "<group>"; };
+		A1C65C802B5E39900066A64D /* webm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = webm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1C65C832B5E39900066A64D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A1C65C842B5E39900066A64D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A1C65C862B5E39900066A64D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		A1C65C872B5E39900066A64D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		A1C65C892B5E39900066A64D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A1C65C8A2B5E39900066A64D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A1C65C8D2B5E39900066A64D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1C65C8F2B5E39910066A64D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1C65C922B5E39910066A64D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1C65C942B5E39910066A64D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1C65C952B5E39910066A64D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1C65C9C2B5E40DC0066A64D /* VC1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VC1.h; sourceTree = "<group>"; };
+		A1C65C9D2B5E40DC0066A64D /* VC1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VC1.m; sourceTree = "<group>"; };
+		A1C65C9F2B5E40E80066A64D /* VC2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VC2.h; sourceTree = "<group>"; };
+		A1C65CA02B5E40E80066A64D /* VC2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VC2.m; sourceTree = "<group>"; };
+		A1C65CA22B5E40F60066A64D /* VC3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VC3.h; sourceTree = "<group>"; };
+		A1C65CA32B5E40F60066A64D /* VC3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VC3.m; sourceTree = "<group>"; };
+		D6DEEB69377F2FA197B510CC /* Pods-webm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webm.debug.xcconfig"; path = "Target Support Files/Pods-webm/Pods-webm.debug.xcconfig"; sourceTree = "<group>"; };
+		E640879FBB84C86AE4F0567E /* Pods-webm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webm.release.xcconfig"; path = "Target Support Files/Pods-webm/Pods-webm.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1C65C7D2B5E39900066A64D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBFFDCA063F3EE0C60191EE2 /* Pods_webm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1B2B4D02B5FB7710087B9E4 /* custom */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2B4D12B5FB7860087B9E4 /* custom.h */,
+				A1B2B4D22B5FB7910087B9E4 /* custom.m */,
+			);
+			path = custom;
+			sourceTree = "<group>";
+		};
+		A1C65C772B5E39900066A64D = {
+			isa = PBXGroup;
+			children = (
+				A1C65C822B5E39900066A64D /* webm */,
+				A1C65C812B5E39900066A64D /* Products */,
+				FF6781500A8A7A824E6D029F /* Pods */,
+				CCC1F0C536B026EFBC9499B4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A1C65C812B5E39900066A64D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1C65C802B5E39900066A64D /* webm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1C65C822B5E39900066A64D /* webm */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2B4D02B5FB7710087B9E4 /* custom */,
+				A1C65CA82B5E413A0066A64D /* FFMpeg */,
+				A1C65CA92B5E41480066A64D /* Lib */,
+				A1C65CAA2B5E41530066A64D /* Webview */,
+				A1C65CA72B5E41230066A64D /* MainVC */,
+				A1C65CA62B5E41070066A64D /* app */,
+				A1C65C8C2B5E39900066A64D /* Main.storyboard */,
+				A1C65C942B5E39910066A64D /* Info.plist */,
+				A1C65C912B5E39910066A64D /* LaunchScreen.storyboard */,
+				A1C65C8F2B5E39910066A64D /* Assets.xcassets */,
+				A1B2B3E82B5FA5770087B9E4 /* libPods-EMMobileVLCKit.a */,
+			);
+			path = webm;
+			sourceTree = "<group>";
+		};
+		A1C65CA62B5E41070066A64D /* app */ = {
+			isa = PBXGroup;
+			children = (
+				A1C65C832B5E39900066A64D /* AppDelegate.h */,
+				A1C65C952B5E39910066A64D /* main.m */,
+				A1C65C842B5E39900066A64D /* AppDelegate.m */,
+				A1C65C862B5E39900066A64D /* SceneDelegate.h */,
+				A1C65C872B5E39900066A64D /* SceneDelegate.m */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		A1C65CA72B5E41230066A64D /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				A1C65C892B5E39900066A64D /* ViewController.h */,
+				A1C65C8A2B5E39900066A64D /* ViewController.m */,
+			);
+			path = MainVC;
+			sourceTree = "<group>";
+		};
+		A1C65CA82B5E413A0066A64D /* FFMpeg */ = {
+			isa = PBXGroup;
+			children = (
+				A1C65C9C2B5E40DC0066A64D /* VC1.h */,
+				A1C65C9D2B5E40DC0066A64D /* VC1.m */,
+			);
+			path = FFMpeg;
+			sourceTree = "<group>";
+		};
+		A1C65CA92B5E41480066A64D /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				A1C65C9F2B5E40E80066A64D /* VC2.h */,
+				A1C65CA02B5E40E80066A64D /* VC2.m */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		A1C65CAA2B5E41530066A64D /* Webview */ = {
+			isa = PBXGroup;
+			children = (
+				A1C65CA22B5E40F60066A64D /* VC3.h */,
+				A1C65CA32B5E40F60066A64D /* VC3.m */,
+			);
+			path = Webview;
+			sourceTree = "<group>";
+		};
+		CCC1F0C536B026EFBC9499B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70DF9B51BC1406F545FD6FC8 /* Pods_webm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF6781500A8A7A824E6D029F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6DEEB69377F2FA197B510CC /* Pods-webm.debug.xcconfig */,
+				E640879FBB84C86AE4F0567E /* Pods-webm.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1C65C7F2B5E39900066A64D /* webm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1C65C992B5E39910066A64D /* Build configuration list for PBXNativeTarget "webm" */;
+			buildPhases = (
+				02179D3C72487D0D383540F3 /* [CP] Check Pods Manifest.lock */,
+				A1C65C7C2B5E39900066A64D /* Sources */,
+				A1C65C7D2B5E39900066A64D /* Frameworks */,
+				A1C65C7E2B5E39900066A64D /* Resources */,
+				B6ED9F2EA51921B55F9A95F4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = webm;
+			productName = webm;
+			productReference = A1C65C802B5E39900066A64D /* webm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1C65C782B5E39900066A64D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					A1C65C7F2B5E39900066A64D = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = A1C65C7B2B5E39900066A64D /* Build configuration list for PBXProject "webm" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1C65C772B5E39900066A64D;
+			productRefGroup = A1C65C812B5E39900066A64D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1C65C7F2B5E39900066A64D /* webm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1C65C7E2B5E39900066A64D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C65C932B5E39910066A64D /* LaunchScreen.storyboard in Resources */,
+				A1C65C902B5E39910066A64D /* Assets.xcassets in Resources */,
+				A1C65C8E2B5E39900066A64D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02179D3C72487D0D383540F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-webm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6ED9F2EA51921B55F9A95F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-webm/Pods-webm-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-webm/Pods-webm-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-webm/Pods-webm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1C65C7C2B5E39900066A64D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C65C8B2B5E39900066A64D /* ViewController.m in Sources */,
+				A1C65CA42B5E40F60066A64D /* VC3.m in Sources */,
+				A1C65C852B5E39900066A64D /* AppDelegate.m in Sources */,
+				A1C65C9E2B5E40DC0066A64D /* VC1.m in Sources */,
+				A1C65CA12B5E40E80066A64D /* VC2.m in Sources */,
+				A1C65C962B5E39910066A64D /* main.m in Sources */,
+				A1B2B4D32B5FB7910087B9E4 /* custom.m in Sources */,
+				A1C65C882B5E39900066A64D /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A1C65C8C2B5E39900066A64D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1C65C8D2B5E39900066A64D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1C65C912B5E39910066A64D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1C65C922B5E39910066A64D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1C65C972B5E39910066A64D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A1C65C982B5E39910066A64D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1C65C9A2B5E39910066A64D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6DEEB69377F2FA197B510CC /* Pods-webm.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2DZ3W5UBH7;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/webm",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = webm/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/webm",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dq.webm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1C65C9B2B5E39910066A64D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E640879FBB84C86AE4F0567E /* Pods-webm.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2DZ3W5UBH7;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/webm",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = webm/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/webm",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dq.webm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1C65C7B2B5E39900066A64D /* Build configuration list for PBXProject "webm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1C65C972B5E39910066A64D /* Debug */,
+				A1C65C982B5E39910066A64D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1C65C992B5E39910066A64D /* Build configuration list for PBXNativeTarget "webm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1C65C9A2B5E39910066A64D /* Debug */,
+				A1C65C9B2B5E39910066A64D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1C65C782B5E39900066A64D /* Project object */;
+}
